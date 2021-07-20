@@ -1,5 +1,3 @@
-package genericRestaurant;
-
 public class MenuItem {
 	// this class is for the food items on the menu
 	
@@ -7,13 +5,6 @@ public class MenuItem {
 	private String name;
 	private String type; // type refers to either drink or burger
 	private double price;
-	// *NOTES FOR FIELDS* //
-	/* ONLY THE FOLLOWING NAMES ARE ALLOWED (so far):
-	 * hamburger, fries, soda
-	 */
-	/* ONLY THE FOLLOWING TYPES ARE ALLOWED (so far):
-	 * burger, side, drink
-	 */
 	
 	// constructors
 	public MenuItem(){
